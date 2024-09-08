@@ -28,12 +28,6 @@ var toDoEntryBox = document.getElementById('todo-entry-box'); //variabile global
 //variabile del selettore HTML che ha come id todo-list
 var toDoList = document.getElementById('todo-list');
 
-toDoEntryBox.addEventListener('keypress', function (event) {
-    if (event.key === "Enter") {
-        event.preventDefault();
-        addToDoItem();
-    }
-});
 
 function newToDoItem(itemText, completed) {//passa due parametri, il flase significa completed si o no nella funzione newToDoItem
     let toDoItem = document.createElement('li'); //aggiunge un list item e ci inserisce il valore testuale di toDoText
