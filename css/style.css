@@ -2,98 +2,102 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
 
-/*
-.anta-regular {
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-*/
+/* .anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 20px;
-  background-color: #ddd;
+body {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    background-color: #ddd;
 }
 
-.todo-wrapper{
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  font-weight: 300;
-}
-.todo-wrapper h1{
-  margin: 0;
-}
-.todo-wrapper p{
-  color: #666;
-  margin: 5px 0;
+.todo-wrapper {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-weight: 300;
 }
 
-button{
-  font-family: "Anta", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  padding: 10px;
-  font-size: 18px;
+.todo-wrapper h1 {
+    margin: 0;
 }
 
-ol{
-  margin: 20px 0;
-  padding: 50px;
+.todo-wrapper p {
+    color: #666;
+    margin: 5px 0;
+}
+
+button {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    font-size: 18px;
+}
+
+ol {
+    margin: 20px 0;
+    padding: 50px;
 }
 
 ol li {
-  margin: 5px 0;
-  padding: 3px;
-  transition: all 0.5s ease-out;
-}
-ol li:nth-child(even){
-  background-color: #ddd;
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
 }
 
-.completed{
-  text-decoration: line-through;
-  color: #666;
+ol li:nth-child(even) {
+    background-color: #ddd;
 }
 
-.pretty-button{
-  margin: 10px 2px;
-  padding: 5px 20px;
-  border-radius: 5px;
-  background-color: rgb(21, 75, 239);
-  color:#fff;
-  text-align: center;
-  display: inline-block;
+.completed {
+    text-decoration: line-through;
+    color: #666;
 }
 
-.pretty-button:hover{
-  cursor: pointer;
-  opacity: 0.75;
+.pretty-button {
+    margin: 10px 2px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #0093d5;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
 }
 
-form{
-  display: inline-block;
-}
-input{
-  padding: 6px 6px;
+.pretty-button:hover {
+    cursor: pointer;
+    opacity: 0.75;
 }
 
-#clear-completed-button{
-  background-color: orange;
+form {
+    display: inline-block;
 }
-#empty-button{
-  background-color: red;
+
+input {
+    padding: 6px 6px;
 }
-#save-button{
-  background-color: green;
+
+#clear-completed-button {
+    background-color: orange;
+}
+
+#empty-button {
+    background-color: red;
+}
+
+#save-button {
+    background-color: green;
 }
